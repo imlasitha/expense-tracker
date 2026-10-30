@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>💰 Expense Tracker</h1>
+
+    <form id="expense-form">
+      <input type="text" id="desc" placeholder="Description" required>
+      <input type="number" id="amount" placeholder="Amount (LKR)" min="0" step="0.01" required>
+      <select id="category">
+        <option>Food</option>
+        <option>Transport</option>
+        <option>Bills</option>
+        <option>Shopping</option>
+        <option>Other</option>
+      </select>
+      <button type="submit">Add Expense</button>
+    </form>
+
+    <div class="summary">
+      <h2>Total: LKR <span id="total">0.00</span></h2>
+      <select id="filter">
+        <option value="All">All categories</option>
+        <option>Food</option>
+        <option>Transport</option>
+        <option>Bills</option>
+        <option>Shopping</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <ul id="list"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
