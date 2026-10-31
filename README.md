@@ -1,2 +1,15 @@
-# expense-tracker
-A simple expense tracker built with HTML, CSS and JavaScript
+# Expense Tracker 💰
+
+A simple web app to track your daily expenses by category.
+
+## Features
+- Add, view, and delete expenses
+- Filter by category
+- Automatic total calculation
+- Data saved in your browser
+
+## Live Demo
+https://YOUR-USERNAME.github.io/expense-tracker/
+
+## Built With
+- HTML, CSS, JavaScript
