@@ -9,7 +9,7 @@ A simple web app to track your daily expenses by category.
 - Data saved in your browser
 
 ## Live Demo
-https://YOUR-USERNAME.github.io/expense-tracker/
+https://imlasitha.github.io/expense-tracker/
 
 ## Built With
 - HTML, CSS, JavaScript
